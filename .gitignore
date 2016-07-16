@@ -12,3 +12,4 @@ bin
 .settings
 logs
 .sbtserver/
+project/.sbtserver

@@ -8,3 +8,6 @@ addSbtPlugin("com.lightbend.lagom" % "lagom-sbt-plugin" % "1.0.0-RC1")
 addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "3.0.0")
 // The ConductR plugin
 addSbtPlugin("com.lightbend.conductr" % "sbt-conductr" % "2.0.1")
+
+//http://www.scala-sbt.org/0.13.1/sxr/sbt/Level.scala.html
+logLevel := Level.Warn

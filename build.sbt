@@ -48,3 +48,17 @@ lazy val eclipseSettings = Seq(
 
 
 fork in run := true
+
+//#service-locator-disabled
+//lagomServiceLocatorEnabled in ThisBuild := false
+//#service-locator-disabled
+
+//#cassandra-clean-on-start
+//lagomCassandraCleanOnStart in ThisBuild := false
+//#cassandra-clean-on-start
+
+
+//disabling cassandra makes the project not work.
+//#cassandra-enabled
+//lagomCassandraEnabled in ThisBuild := false
+//#cassandra-enabled
